@@ -1,0 +1,8 @@
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\bin\HPD\Debug\netcoreapp1.1\bfaubion_webapp.deps.json
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\bin\HPD\Debug\netcoreapp1.1\bfaubion_webapp.runtimeconfig.json
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\bin\HPD\Debug\netcoreapp1.1\bfaubion_webapp.runtimeconfig.dev.json
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\bin\HPD\Debug\netcoreapp1.1\bfaubion_webapp.dll
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\bin\HPD\Debug\netcoreapp1.1\bfaubion_webapp.pdb
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\obj\HPD\Debug\netcoreapp1.1\bfaubion_webapp.AssemblyInfo.cs
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\obj\HPD\Debug\netcoreapp1.1\bfaubion_webapp.dll
+C:\Users\Brian\Projects\VS Code C#\bfaubion_webapp\obj\HPD\Debug\netcoreapp1.1\bfaubion_webapp.pdb
