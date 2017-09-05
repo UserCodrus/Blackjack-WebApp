@@ -1,1 +1,55 @@
-This is the blackjack index page!
+<div class="container-fluid">
+    <!-- Dealer hand -->
+    <div class="row">
+        <div class="col align-self-start text-left">
+            <img src=@ViewData["Image"]>
+            <img src=@ViewData["Image"]>
+            <strong>Dealer</strong>
+        </div>
+        <div class="col">
+            <!-- empty -->
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="row" style="padding: 15;">
+        <div class="col">
+            <!-- empty -->
+        </div>
+        <div class="col text-center">
+            <button>Hit</button><button>Stand</button><button>Split</button>
+        </div>
+        <div class="col">
+            <!-- empty -->
+        </div>
+    </div>
+
+    <!-- Player hand -->
+    <div class="row">
+        <div class="col">
+            <!-- empty -->
+        </div>
+        <div class="col align-self-end text-right">
+            <strong>Player</strong>
+            <img src=@ViewData["Image"]>
+            <img src=@ViewData["Image"]>
+            <img src=@ViewData["Image"]>
+        </div>
+    </div>
+
+    <!-- Score -->
+    <div class="row" style="padding: 10;">
+        <div class="col">
+            <!-- empty -->
+        </div>
+        <div class="col text-center border">
+            Wins = 1
+        </div>
+        <div class="col text-center border">
+            Losses = 3
+        </div>
+        <div class="col">
+            <!-- empty -->
+        </div>
+    </div>
+</div>

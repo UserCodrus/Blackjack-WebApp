@@ -1,24 +1,27 @@
 <head>
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <!--link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <div class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">Blackjack</a>
-                <ul class="nav navbar-nav">
-                    <li><a href="/blackjack">Play</a></li>
-                    <li><a href="/home/About">About</a></li>
-                    <li><a href="/home/Contact">Contact</a></li>
-                </ul>
-            </div>
+    <div class="nav nav-pills nav-fill" style="padding: 5;">
+        <div class="nav-item border rounded">
+            <a class="nav-link active" href="/">Blackjack</a>
+        </div>
+        <div class="nav-item border rounded">
+            <a class="nav-link" href="/blackjack">Play</a>
+        </div>
+        <div class="nav-item border rounded">
+            <a class="nav-link" href="/home/About">About</a>
+        </div>
+        <div class="nav-item border rounded">
+            <a class="nav-link" href="/home/Contact">Contact</a>
         </div>
     </div>
 
     <!-- Page body -->
-    <p><strong>@ViewData["Message"]</strong></p>
+    <!--<p><strong>@ViewData["Message"]</strong></p>-->
     @RenderBody()
 </body>

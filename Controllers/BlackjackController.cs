@@ -10,6 +10,7 @@ namespace bfaubion_webapp.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Image"] = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Playing_card_diamond_A.svg/192px-Playing_card_diamond_A.svg.png";
             return View();
         }
     }
